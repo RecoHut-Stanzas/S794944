@@ -70,9 +70,11 @@ python test_gowalla.py
 │   └── [ 20K]  process_flow.svg
 ├── [ 57K]  nbs
 │   └── [ 53K]  P174968_LR_GCCF_on_Gowalla.ipynb
-└── [2.0K]  README.md
+├── [3.6K]  README.md
+└── [ 13K]  reports
+    └── [8.5K]  S794944_report.ipynb
 
-  74M used in 8 directories, 25 files
+  75M used in 9 directories, 26 files
 ```
 
 ## References
