@@ -34,3 +34,49 @@ python test_amazon.py
 #for gowalla dataset
 python test_gowalla.py
 ```
+
+## Project structure
+```
+.
+├── [ 57K]  code
+│   ├── [4.6K]  data_utils.py
+│   ├── [4.0K]  evaluate.py
+│   ├── [ 12K]  test_amazons.py
+│   ├── [ 12K]  test_gowalla.py
+│   ├── [9.9K]  train_amazons.py
+│   └── [9.9K]  train_gowalla.py
+├── [ 74M]  data
+│   ├── [ 53M]  amazon-book
+│   │   ├── [2.1K]  data2npy.py
+│   │   ├── [ 36M]  datanpy
+│   │   │   ├── [7.1M]  testing_set.npy
+│   │   │   ├── [ 18M]  training_set.npy
+│   │   │   └── [ 11M]  user_rating_set_all.npy
+│   │   ├── [  93]  README.md
+│   │   ├── [3.7M]  test.txt
+│   │   └── [ 13M]  train.txt
+│   ├── [2.1K]  data2npy.py
+│   └── [ 21M]  gowalla
+│       ├── [ 15M]  datanpy
+│       │   ├── [2.9M]  testing_set.npy
+│       │   ├── [6.3M]  training_set.npy
+│       │   ├── [3.6M]  user_rating_set_all.npy
+│       │   └── [2.1M]  val_set.npy
+│       ├── [ 103]  README.md
+│       ├── [1.3M]  test.txt
+│       └── [4.4M]  train.txt
+├── [763K]  images
+│   ├── [739K]  Overall_framework.jpg
+│   └── [ 20K]  process_flow.svg
+├── [ 57K]  nbs
+│   └── [ 53K]  P174968_LR_GCCF_on_Gowalla.ipynb
+└── [2.0K]  README.md
+
+  74M used in 8 directories, 25 files
+```
+
+## References
+
+1. [https://github.com/RecoHut-Stanzas/S794944](https://github.com/RecoHut-Stanzas/S794944)
+2. [https://arxiv.org/abs/2001.10167](https://arxiv.org/abs/2001.10167)
+3. [https://github.com/newlei/LR-GCCF](https://github.com/newlei/LR-GCCF)
